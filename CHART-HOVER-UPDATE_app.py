@@ -4,8 +4,7 @@ Slider is linked to parm2v2.  Can search replace for different category, spreads
 Hover is linked to company (side plots will show question/assessment(Yaxis) by parm2v2(Xaxis) for the company hovered on)
 '''
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 import pandas as pd
 import plotly.express as px
 
